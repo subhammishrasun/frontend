@@ -23,3 +23,7 @@ export const addComment = async (postId, text) => {
 
   return res.data;
 };
+const VITE_API = axios.create({
+  baseURL: "https://backend-z85x.onrender.com/"
+});
+
